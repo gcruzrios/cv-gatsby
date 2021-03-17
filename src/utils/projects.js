@@ -4,10 +4,11 @@ import instagram from "../images/projects/instagram.png"
 import pinteres from "../images/projects/pinteres.png"
 import twitter from "../images/projects/twitter.png"
 
+
 export default [
      {
          title: "Google Search",
-         description: "El buscador ...",
+         description: "El buscador de Internet...",
          url:"https://google.com",
          image: google
      },

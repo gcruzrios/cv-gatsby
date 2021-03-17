@@ -14,7 +14,7 @@ export default function Projects(){
         <h1>Proyectos</h1>
         <Row>
           {projects.map((project, index)=>(
-            <Col key={index} sm={12} sm={4} className="project">
+            <Col key={index} xs={12} sm={4} className="project">
             <Card>
               <div className="image" style={{ backgroundImage: `url("${project.image}")`}} />
                 <Card.Body>
